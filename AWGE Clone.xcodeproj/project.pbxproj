@@ -1,0 +1,460 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0474C41026D7656F0086477E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0474C40F26D7656F0086477E /* AppDelegate.swift */; };
+		0474C41226D7656F0086477E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0474C41126D7656F0086477E /* SceneDelegate.swift */; };
+		0474C41426D7656F0086477E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0474C41326D7656F0086477E /* ViewController.swift */; };
+		0474C41726D7656F0086477E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0474C41526D7656F0086477E /* Main.storyboard */; };
+		0474C41926D765710086477E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0474C41826D765710086477E /* Assets.xcassets */; };
+		0474C41C26D765710086477E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0474C41A26D765710086477E /* LaunchScreen.storyboard */; };
+		0474C42426D7678D0086477E /* tvnoise.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0474C42326D7678D0086477E /* tvnoise.gif */; };
+		0474C42826D76DD30086477E /* dollarRotation.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0474C42726D76DD30086477E /* dollarRotation.gif */; };
+		0474C42A26D76EE00086477E /* earthGIF.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0474C42926D76EE00086477E /* earthGIF.gif */; };
+		0474C42C26D76F5C0086477E /* capGIF.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0474C42B26D76F5C0086477E /* capGIF.gif */; };
+		0474C42E26D76F670086477E /* cardGIF.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0474C42D26D76F670086477E /* cardGIF.gif */; };
+		0474C43026D76FB90086477E /* clothesGIF.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0474C42F26D76FB80086477E /* clothesGIF.gif */; };
+		0474C43226D76FE40086477E /* shoesGIF.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0474C43126D76FE40086477E /* shoesGIF.gif */; };
+		0474C43426D7714D0086477E /* tvShortNoiseGIF.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0474C43326D7714D0086477E /* tvShortNoiseGIF.gif */; };
+		0474C43726D771C00086477E /* DollarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0474C43626D771C00086477E /* DollarViewController.swift */; };
+		652AA7AACB1623DFCB1B9484 /* Pods_AWGE_Clone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C323F960A3C5E8E5595BF9AE /* Pods_AWGE_Clone.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0474C40C26D7656F0086477E /* AWGE Clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AWGE Clone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0474C40F26D7656F0086477E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0474C41126D7656F0086477E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0474C41326D7656F0086477E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0474C41626D7656F0086477E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0474C41826D765710086477E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0474C41B26D765710086477E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0474C41D26D765710086477E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0474C42326D7678D0086477E /* tvnoise.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = tvnoise.gif; sourceTree = "<group>"; };
+		0474C42726D76DD30086477E /* dollarRotation.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = dollarRotation.gif; sourceTree = "<group>"; };
+		0474C42926D76EE00086477E /* earthGIF.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = earthGIF.gif; sourceTree = "<group>"; };
+		0474C42B26D76F5C0086477E /* capGIF.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = capGIF.gif; sourceTree = "<group>"; };
+		0474C42D26D76F670086477E /* cardGIF.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = cardGIF.gif; sourceTree = "<group>"; };
+		0474C42F26D76FB80086477E /* clothesGIF.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = clothesGIF.gif; sourceTree = "<group>"; };
+		0474C43126D76FE40086477E /* shoesGIF.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = shoesGIF.gif; sourceTree = "<group>"; };
+		0474C43326D7714D0086477E /* tvShortNoiseGIF.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = tvShortNoiseGIF.gif; sourceTree = "<group>"; };
+		0474C43626D771C00086477E /* DollarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DollarViewController.swift; sourceTree = "<group>"; };
+		14FF9796EB28C94B78EF0BB4 /* Pods-AWGE Clone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AWGE Clone.release.xcconfig"; path = "Target Support Files/Pods-AWGE Clone/Pods-AWGE Clone.release.xcconfig"; sourceTree = "<group>"; };
+		5AA6C6030C1F0029D4F56031 /* Pods-AWGE Clone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AWGE Clone.debug.xcconfig"; path = "Target Support Files/Pods-AWGE Clone/Pods-AWGE Clone.debug.xcconfig"; sourceTree = "<group>"; };
+		C323F960A3C5E8E5595BF9AE /* Pods_AWGE_Clone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AWGE_Clone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0474C40926D7656F0086477E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				652AA7AACB1623DFCB1B9484 /* Pods_AWGE_Clone.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0474C40326D7656F0086477E = {
+			isa = PBXGroup;
+			children = (
+				0474C40E26D7656F0086477E /* AWGE Clone */,
+				0474C40D26D7656F0086477E /* Products */,
+				B5C4BC96D6AF887A29E8CF01 /* Pods */,
+				56E41805B497EB7B8A468191 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0474C40D26D7656F0086477E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0474C40C26D7656F0086477E /* AWGE Clone.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0474C40E26D7656F0086477E /* AWGE Clone */ = {
+			isa = PBXGroup;
+			children = (
+				0474C43526D7714F0086477E /* GIFs */,
+				0474C40F26D7656F0086477E /* AppDelegate.swift */,
+				0474C41126D7656F0086477E /* SceneDelegate.swift */,
+				0474C41326D7656F0086477E /* ViewController.swift */,
+				0474C43626D771C00086477E /* DollarViewController.swift */,
+				0474C41526D7656F0086477E /* Main.storyboard */,
+				0474C41826D765710086477E /* Assets.xcassets */,
+				0474C41A26D765710086477E /* LaunchScreen.storyboard */,
+				0474C41D26D765710086477E /* Info.plist */,
+			);
+			path = "AWGE Clone";
+			sourceTree = "<group>";
+		};
+		0474C43526D7714F0086477E /* GIFs */ = {
+			isa = PBXGroup;
+			children = (
+				0474C42326D7678D0086477E /* tvnoise.gif */,
+				0474C42726D76DD30086477E /* dollarRotation.gif */,
+				0474C42926D76EE00086477E /* earthGIF.gif */,
+				0474C42B26D76F5C0086477E /* capGIF.gif */,
+				0474C42D26D76F670086477E /* cardGIF.gif */,
+				0474C42F26D76FB80086477E /* clothesGIF.gif */,
+				0474C43126D76FE40086477E /* shoesGIF.gif */,
+				0474C43326D7714D0086477E /* tvShortNoiseGIF.gif */,
+			);
+			path = GIFs;
+			sourceTree = "<group>";
+		};
+		56E41805B497EB7B8A468191 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C323F960A3C5E8E5595BF9AE /* Pods_AWGE_Clone.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B5C4BC96D6AF887A29E8CF01 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5AA6C6030C1F0029D4F56031 /* Pods-AWGE Clone.debug.xcconfig */,
+				14FF9796EB28C94B78EF0BB4 /* Pods-AWGE Clone.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0474C40B26D7656F0086477E /* AWGE Clone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0474C42026D765710086477E /* Build configuration list for PBXNativeTarget "AWGE Clone" */;
+			buildPhases = (
+				4D52E8A824A096BB17293D91 /* [CP] Check Pods Manifest.lock */,
+				0474C40826D7656F0086477E /* Sources */,
+				0474C40926D7656F0086477E /* Frameworks */,
+				0474C40A26D7656F0086477E /* Resources */,
+				D3FE8A210D6B886F9503679D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AWGE Clone";
+			productName = "AWGE Clone";
+			productReference = 0474C40C26D7656F0086477E /* AWGE Clone.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0474C40426D7656F0086477E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					0474C40B26D7656F0086477E = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 0474C40726D7656F0086477E /* Build configuration list for PBXProject "AWGE Clone" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0474C40326D7656F0086477E;
+			productRefGroup = 0474C40D26D7656F0086477E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0474C40B26D7656F0086477E /* AWGE Clone */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0474C40A26D7656F0086477E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0474C41C26D765710086477E /* LaunchScreen.storyboard in Resources */,
+				0474C41926D765710086477E /* Assets.xcassets in Resources */,
+				0474C43426D7714D0086477E /* tvShortNoiseGIF.gif in Resources */,
+				0474C42826D76DD30086477E /* dollarRotation.gif in Resources */,
+				0474C41726D7656F0086477E /* Main.storyboard in Resources */,
+				0474C43226D76FE40086477E /* shoesGIF.gif in Resources */,
+				0474C42A26D76EE00086477E /* earthGIF.gif in Resources */,
+				0474C42C26D76F5C0086477E /* capGIF.gif in Resources */,
+				0474C43026D76FB90086477E /* clothesGIF.gif in Resources */,
+				0474C42426D7678D0086477E /* tvnoise.gif in Resources */,
+				0474C42E26D76F670086477E /* cardGIF.gif in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4D52E8A824A096BB17293D91 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AWGE Clone-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3FE8A210D6B886F9503679D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AWGE Clone/Pods-AWGE Clone-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AWGE Clone/Pods-AWGE Clone-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AWGE Clone/Pods-AWGE Clone-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0474C40826D7656F0086477E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0474C41426D7656F0086477E /* ViewController.swift in Sources */,
+				0474C41026D7656F0086477E /* AppDelegate.swift in Sources */,
+				0474C43726D771C00086477E /* DollarViewController.swift in Sources */,
+				0474C41226D7656F0086477E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0474C41526D7656F0086477E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0474C41626D7656F0086477E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0474C41A26D765710086477E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0474C41B26D765710086477E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0474C41E26D765710086477E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0474C41F26D765710086477E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0474C42126D765710086477E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AA6C6030C1F0029D4F56031 /* Pods-AWGE Clone.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2F54VR68GM;
+				INFOPLIST_FILE = "AWGE Clone/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fomagran.AWGE-Clone";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0474C42226D765710086477E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14FF9796EB28C94B78EF0BB4 /* Pods-AWGE Clone.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2F54VR68GM;
+				INFOPLIST_FILE = "AWGE Clone/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fomagran.AWGE-Clone";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0474C40726D7656F0086477E /* Build configuration list for PBXProject "AWGE Clone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0474C41E26D765710086477E /* Debug */,
+				0474C41F26D765710086477E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0474C42026D765710086477E /* Build configuration list for PBXNativeTarget "AWGE Clone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0474C42126D765710086477E /* Debug */,
+				0474C42226D765710086477E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0474C40426D7656F0086477E /* Project object */;
+}
