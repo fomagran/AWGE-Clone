@@ -19,9 +19,14 @@ class ViewController: UIViewController {
     @IBOutlet weak var rotationImageView4: UIImageView!
     @IBOutlet weak var rotationImageView5: UIImageView!
     @IBOutlet weak var rotationImageView6: UIImageView!
+    @IBOutlet weak var shortNoiseImageView: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        let shortNoiseGIF = UIImage.gif(name: "tvShortNoiseGIF")
+        shortNoiseImageView.image = shortNoiseGIF
+        
+        self.navigationController?.navigationBar.isHidden = true
         let noiseGIF = UIImage.gif(name: "tvnoise")
         noiseImageView.image = noiseGIF
         
@@ -41,6 +46,14 @@ class ViewController: UIViewController {
         let tapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(imageTapped(tapGestureRecognizer:)))
         rotationImageView1.isUserInteractionEnabled = true
         rotationImageView1.addGestureRecognizer(tapGestureRecognizer)
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        //fade out
+        self.shortNoiseImageView.alpha = 1.0
+        UIView.animate(withDuration: 3, delay: 1, options: .curveEaseOut, animations: {
+            self.shortNoiseImageView.alpha = 0.0
+        }, completion: nil)
     }
     
     

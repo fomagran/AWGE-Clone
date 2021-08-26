@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="i0W-ge-ipo">
     <device id="ipad12_9rounded" orientation="landscape" layout="fullscreen" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
@@ -17,13 +17,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="nel-vf-DSI">
-                                <rect key="frame" x="-10" y="0.0" width="1386" height="1004"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tv1" translatesAutoresizingMaskIntoConstraints="NO" id="5eS-oB-Tr7">
-                                <rect key="frame" x="-20" y="-5" width="1671" height="1034"/>
+                                <rect key="frame" x="-10" y="50" width="1386" height="954"/>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" alignment="top" spacing="100" translatesAutoresizingMaskIntoConstraints="NO" id="MxR-wL-qtL">
-                                <rect key="frame" x="133" y="302" width="1100" height="200"/>
+                                <rect key="frame" x="133" y="327" width="1100" height="200"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="08B-7e-ATH">
                                         <rect key="frame" x="0.0" y="0.0" width="200" height="200"/>
@@ -56,7 +53,7 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" alignment="top" spacing="100" translatesAutoresizingMaskIntoConstraints="NO" id="hNc-TO-Eqy">
-                                <rect key="frame" x="133" y="602" width="500" height="200"/>
+                                <rect key="frame" x="133" y="627" width="500" height="200"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="B5E-xK-gIs">
                                         <rect key="frame" x="0.0" y="0.0" width="200" height="200"/>
@@ -74,6 +71,13 @@
                                     </imageView>
                                 </subviews>
                             </stackView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Fg8-yr-B0Q">
+                                <rect key="frame" x="0.0" y="25" width="1366" height="974"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tv1" translatesAutoresizingMaskIntoConstraints="NO" id="5eS-oB-Tr7">
+                                <rect key="frame" x="-20" y="45" width="1671" height="984"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -92,6 +96,7 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="nel-vf-DSI" secondAttribute="bottom" id="xaV-ci-Esa"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="XrY-cO-sVv"/>
                     <connections>
                         <outlet property="noiseImageView" destination="nel-vf-DSI" id="i0h-gl-k8x"/>
                         <outlet property="rotationImageView1" destination="08B-7e-ATH" id="nub-4E-Rv6"/>
@@ -100,12 +105,13 @@
                         <outlet property="rotationImageView4" destination="fn6-Cq-Qju" id="1jM-yw-eqt"/>
                         <outlet property="rotationImageView5" destination="B5E-xK-gIs" id="vLD-tZ-i69"/>
                         <outlet property="rotationImageView6" destination="rGc-jp-Amc" id="lrF-LT-crw"/>
+                        <outlet property="shortNoiseImageView" destination="Fg8-yr-B0Q" id="xeJ-j1-tLj"/>
                         <segue destination="lvX-6c-0zM" kind="show" identifier="showDollarViewController" animates="NO" id="nWg-80-WFg"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="138.61607142857142" y="123.18840579710145"/>
+            <point key="canvasLocation" x="832.3572474377745" y="123.04687499999999"/>
         </scene>
         <!--Dollar View Controller-->
         <scene sceneID="XiE-z9-Y90">
@@ -116,30 +122,39 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="y0T-a0-qdH">
-                                <rect key="frame" x="-10" y="0.0" width="1386" height="1004"/>
+                                <rect key="frame" x="-10" y="50" width="1386" height="954"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="xu5-G6-qP5">
+                                <rect key="frame" x="144" y="222" width="120" height="120"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="120" id="72S-H7-J6K"/>
+                                    <constraint firstAttribute="height" constant="120" id="cyJ-kf-OSf"/>
+                                </constraints>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="nKA-Dn-mxZ">
-                                <rect key="frame" x="483" y="302" width="400" height="400"/>
+                                <rect key="frame" x="483" y="327" width="400" height="400"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="400" id="F5S-9e-uqc"/>
                                     <constraint firstAttribute="width" constant="400" id="zCO-AE-R9r"/>
                                 </constraints>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="0d4-cs-ugg">
-                                <rect key="frame" x="0.0" y="0.0" width="1366" height="1024"/>
+                                <rect key="frame" x="0.0" y="50" width="1366" height="974"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tv1" translatesAutoresizingMaskIntoConstraints="NO" id="Qxu-oW-Hck">
-                                <rect key="frame" x="-20" y="-5" width="1671" height="1034"/>
+                                <rect key="frame" x="-20" y="45" width="1671" height="984"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="M3H-OG-ycf"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="xu5-G6-qP5" firstAttribute="top" secondItem="M3H-OG-ycf" secondAttribute="top" constant="172" id="6PL-Au-WBy"/>
                             <constraint firstItem="nKA-Dn-mxZ" firstAttribute="centerX" secondItem="M3H-OG-ycf" secondAttribute="centerX" id="AcZ-Rs-SWR"/>
                             <constraint firstItem="M3H-OG-ycf" firstAttribute="bottom" secondItem="0d4-cs-ugg" secondAttribute="bottom" constant="-20" id="Ilr-jQ-rCm"/>
                             <constraint firstItem="Qxu-oW-Hck" firstAttribute="leading" secondItem="7GH-KE-ObR" secondAttribute="leading" constant="-20" id="KPT-4K-xgH"/>
                             <constraint firstItem="M3H-OG-ycf" firstAttribute="trailing" secondItem="0d4-cs-ugg" secondAttribute="trailing" id="N02-a6-36a"/>
                             <constraint firstItem="nKA-Dn-mxZ" firstAttribute="centerY" secondItem="M3H-OG-ycf" secondAttribute="centerY" id="NYr-Ix-bWw"/>
+                            <constraint firstItem="xu5-G6-qP5" firstAttribute="leading" secondItem="M3H-OG-ycf" secondAttribute="leading" constant="144" id="RpG-At-JbM"/>
                             <constraint firstItem="y0T-a0-qdH" firstAttribute="top" secondItem="M3H-OG-ycf" secondAttribute="top" id="g8v-Fu-qRT"/>
                             <constraint firstItem="0d4-cs-ugg" firstAttribute="top" secondItem="M3H-OG-ycf" secondAttribute="top" id="i2i-6p-cce"/>
                             <constraint firstAttribute="trailing" secondItem="Qxu-oW-Hck" secondAttribute="trailing" constant="-285" id="kHZ-eZ-olU"/>
@@ -153,6 +168,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="nb8-Ac-vnC"/>
                     <connections>
+                        <outlet property="backImageView" destination="xu5-G6-qP5" id="gRp-zg-6Mf"/>
                         <outlet property="noiseImageView" destination="y0T-a0-qdH" id="9WH-NW-DKg"/>
                         <outlet property="rotationImage" destination="nKA-Dn-mxZ" id="60B-xH-Fk6"/>
                         <outlet property="shortNoiseImageView" destination="0d4-cs-ugg" id="ho9-Ja-zhO"/>
@@ -160,7 +176,25 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="F0c-qD-KFb" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="887" y="123"/>
+            <point key="canvasLocation" x="1580.8199121522694" y="122.46093749999999"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="NKs-V4-zts">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="i0W-ge-ipo" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Gzq-3F-7Kn">
+                        <rect key="frame" x="0.0" y="0.0" width="1366" height="50"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="0zA-K2-Oln"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4l0-Tn-ChN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="138.36017569546118" y="123.04687499999999"/>
         </scene>
     </scenes>
     <resources>
